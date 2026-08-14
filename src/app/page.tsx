@@ -27,7 +27,7 @@ export default function Home() {
               <i className="font-normal text-[#d8bd92]">elevated.</i>
             </h1>
             <p className="mt-8 max-w-md text-base leading-7 text-white/70">
-              Private aviation cuisine shaped by Nigerian heritage,
+              Aviation cuisine shaped by Nigerian heritage,
               international technique and the precision of food engineering.
             </p>
             <Link href="/portfolio" className="btn mt-9">
