@@ -32,7 +32,6 @@ export default function Footer() {
       </div>
       <div className="container mt-14 flex justify-between border-t border-white/10 pt-5 text-[10px] uppercase tracking-widest text-white/35">
         <span>© {new Date().getFullYear()} Chef Quinstas</span>
-        <Link href="/admin">Studio</Link>
       </div>
     </footer>
   );

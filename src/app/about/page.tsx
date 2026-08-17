@@ -6,15 +6,15 @@ export default function About() {
     <>
       <PageHero
         kicker="The chef"
-        title="Nigerian roots. Global perspective. Aviation precision."
-        copy="Based in Abuja, Chef Quinstas brings together professional culinary training, food engineering and a deep respect for the way people experience food."
+        title="Culinary excellence. Hospitality. Innovation. Leadership."
+        copy="Based in Abuja, Chef Quinstas is an executive chef, culinary consultant, recipe developer and hospitality professional with a decade of practical culinary experience."
       />
       <section className="bg-[#f4efe7] py-24 text-[#151a22]">
         <div className="container grid gap-14 md:grid-cols-2">
           <div className="relative min-h-[680px]">
             <Image
               src="/assets/quinstas/portrait-close.jpg"
-            alt="Portrait of Chef Quinstas, a Nigerian aviation chef based in Abuja"
+              alt="Portrait of Chef Quinstas, a Nigerian aviation chef based in Abuja"
               fill
               priority
               className="object-cover"
@@ -27,43 +27,47 @@ export default function About() {
             </h2>
             <div className="mt-8 space-y-5 leading-8 text-black/65">
               <p>
-              Chef Quinstas is a Nigerian aviation chef and food
-                engineer based in Abuja. She creates refined, deeply personal
-                dining experiences for private aviation guests, combining
-                meticulous preparation with an instinctive understanding of
-                discreet service.
+                Chef Quinstas is a Nigerian executive chef, culinary consultant,
+                recipe developer, food engineer and hospitality professional.
+                She brings over 10 years of practical culinary experience and
+                six years of professional industry experience to every
+                engagement.
               </p>
               <p>
-                A qualified chef and graduate of the prestigious Red Dish
-                Chronicles culinary school in Abuja, her work is grounded in
-                professional technique and strengthened by her food-engineering
-                background.
+                A Top Class alumna of Reddish Chronicles Culinary School&apos;s
+                2019/2020 cohort, she is also HACCP certified. Her work combines
+                professional technique and food-safety discipline with the
+                operational insight of food engineering.
               </p>
               <p>
-                Her expertise spans recipe development, international cuisines
-                and the rich diversity of Nigerian and local dishes. Every menu
-                begins with the guest—their preferences, itinerary, occasion and
-                sense of comfort—then considers flavour at altitude, timing,
-                presentation and effortless cabin service.
+                Her experience spans private-jet catering, Nigerian, Continental
+                and international cuisine, recipe and menu development,
+                procurement, food costing, inventory, kitchen leadership, staff
+                training and hospitality operations. She believes exceptional
+                food requires exceptional systems behind it: create with
+                passion, execute with discipline and serve with excellence. As
+                Deputy Director of Membership for the Culinary Art Practitioners
+                Association of Nigeria, she also contributes to professional
+                development and industry collaboration.
               </p>
             </div>
             <div className="mt-12 grid gap-6 border-t border-black/15 pt-8 sm:grid-cols-3">
               <div>
-                <b className="serif text-2xl">Abuja</b>
+                <b className="serif text-2xl">10+</b>
                 <p className="mt-2 text-xs uppercase tracking-widest text-black/45">
-                  Based in Nigeria
+                  Years of culinary practice
                 </p>
               </div>
               <div>
-                <b className="serif text-2xl">RDC</b>
+                <b className="serif text-2xl">6</b>
                 <p className="mt-2 text-xs uppercase tracking-widest text-black/45">
-                  Culinary graduate
+                  Years in the industry
                 </p>
               </div>
               <div>
-                <b className="serif text-2xl">Food</b>
+                <b className="serif text-2xl">CAPA</b>
                 <p className="mt-2 text-xs uppercase tracking-widest text-black/45">
-                  Engineering expertise
+                  Deputy Director, Membership
                 </p>
               </div>
             </div>

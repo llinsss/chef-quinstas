@@ -6,7 +6,7 @@ export default function Contact() {
     <>
       <PageHero
         kicker="Private inquiries"
-        title="Tell us where the journey begins."
+        title="Tell me where the journey begins."
         copy="Share a few details about your flight or occasion. Every inquiry is handled personally and discreetly."
       />
       <section className="bg-[#f4efe7] py-20 text-[#111720]">
@@ -19,10 +19,7 @@ export default function Contact() {
             >
               chefquinstas@gmail.com
             </a>
-            <a
-              className="serif mt-3 block text-2xl"
-              href="tel:+2348024616021"
-            >
+            <a className="serif mt-3 block text-2xl" href="tel:+2348024616021">
               +234 802 461 6021
             </a>
             <p className="mt-8 text-sm font-medium">Abuja, Nigeria</p>

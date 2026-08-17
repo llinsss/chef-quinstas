@@ -12,7 +12,7 @@ export default function Home() {
           alt="Chef Quinstas, Nigerian aviation chef and food engineer in Abuja"
           fill
           priority
-          className="object-cover object-[52%_22%] sm:object-[55%_24%] md:object-[58%_center]"
+          className="object-cover object-[52%_22%] sm:object-[55%_24%] md:object-[58%_18%]"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#080c12] via-[#080c12]/80 to-transparent" />
         <div className="container relative flex min-h-screen items-end pb-20 pt-36 md:items-center md:pb-0">
@@ -27,8 +27,8 @@ export default function Home() {
               <i className="font-normal text-[#d8bd92]">elevated.</i>
             </h1>
             <p className="mt-8 max-w-md text-base leading-7 text-white/70">
-              Aviation cuisine shaped by Nigerian heritage,
-              international technique and the precision of food engineering.
+              Aviation cuisine shaped by Nigerian heritage, international
+              technique and the precision of food engineering.
             </p>
             <Link href="/portfolio" className="btn mt-9">
               Discover her work <ArrowDownRight size={15} />
@@ -39,7 +39,7 @@ export default function Home() {
       <section className="bg-[#f4efe7] py-28 text-[#131820]">
         <div className="container grid gap-16 md:grid-cols-2">
           <div>
-            <p className="eyebrow">Chef · Food engineer · Creator</p>
+            <p className="eyebrow">Executive chef · Consultant · Developer</p>
             <h2 className="serif mt-6 text-5xl leading-tight md:text-7xl">
               Cuisine without
               <br />
@@ -48,9 +48,9 @@ export default function Home() {
           </div>
           <div className="max-w-lg self-end">
             <p className="serif text-2xl leading-9 text-[#2c3138]">
-              Chef Quinstas brings culinary craft and scientific precision to
-              the unique rhythm of private aviation—from original recipe
-              development to Nigerian and international menus.
+              Chef Quinstas combines culinary creativity with operational
+              expertise—creating memorable food while strengthening the systems,
+              teams and standards behind exceptional hospitality.
             </p>
             <Link
               href="/about"

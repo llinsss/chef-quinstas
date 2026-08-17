@@ -31,10 +31,17 @@ export default function RootLayout({
     gender: "Female",
     nationality: "Nigerian",
     homeLocation: { "@type": "Place", name: "Abuja, Nigeria" },
-    jobTitle: ["Aviation Chef", "Food Engineer"],
+    jobTitle: [
+      "Executive Chef",
+      "Aviation Chef",
+      "Culinary Consultant",
+      "Recipe Developer",
+      "Hospitality Professional",
+      "Food Engineer",
+    ],
     alumniOf: {
       "@type": "EducationalOrganization",
-      name: "Red Dish Chronicles",
+      name: "Reddish Chronicles Culinary School",
       address: "Abuja, Nigeria",
     },
     knowsAbout: [
@@ -43,6 +50,9 @@ export default function RootLayout({
       "International cuisine",
       "Nigerian cuisine",
       "Food engineering",
+      "Hospitality operations",
+      "Menu development",
+      "Kitchen management",
     ],
     url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
   };
