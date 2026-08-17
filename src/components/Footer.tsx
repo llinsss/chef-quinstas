@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="container grid gap-10 md:grid-cols-3">
         <div>
           <div className="serif text-xl tracking-[.14em]">
-            CHEF QUINSTAS<span className="text-[#c6a36b]">.</span>
+            CHEF QUINSTAS
           </div>
           <p className="mt-3 max-w-xs text-sm leading-6 text-white/45">
             Nigerian culinary heritage and global technique, crafted for private
