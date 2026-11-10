@@ -21,7 +21,7 @@ export async function POST(req: Request) {
       to: process.env.CONTACT_TO_EMAIL || "chefquinstas@gmail.com",
       replyTo: b.email,
       subject: `Private inquiry from ${b.name}`,
-      text: `Name: ${b.name}\nEmail: ${b.email}\nDate: ${b.date || "Not specified"}\nRoute: ${b.route || "Not specified"}\n\n${b.message}`,
+      text: `Name: ${b.name}\nEmail: ${b.email}\n\n${b.message}`,
     });
     return NextResponse.json({ ok: true });
   } catch {

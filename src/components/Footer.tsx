@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="text-sm text-white/55">
           <p className="eyebrow mb-4">Navigate</p>
           <div className="flex flex-col gap-2">
-            <Link href="/portfolio">Portfolio</Link>
+            <Link href="/gallery">Gallery</Link>
             <Link href="/services">Expertise</Link>
             <Link href="/contact">Inquire</Link>
           </div>

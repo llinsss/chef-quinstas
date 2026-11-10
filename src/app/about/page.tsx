@@ -8,6 +8,7 @@ export default function About() {
         kicker="The chef"
         title="Culinary excellence. Hospitality. Innovation. Leadership."
         copy="Based in Abuja, Chef Quinstas is an executive chef, culinary consultant, recipe developer and hospitality professional with a decade of practical culinary experience."
+        image="/assets/quinstas/portrait-chin-hand.jpg"
       />
       <section className="bg-[#f4efe7] py-24 text-[#151a22]">
         <div className="container grid gap-14 md:grid-cols-2">

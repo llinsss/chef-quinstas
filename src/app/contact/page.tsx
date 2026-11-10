@@ -8,6 +8,7 @@ export default function Contact() {
         kicker="Private inquiries"
         title="Tell me where the journey begins."
         copy="Share a few details about your flight or occasion. Every inquiry is handled personally and discreetly."
+        image="/assets/quinstas/portrait-chin-hand.jpg"
       />
       <section className="bg-[#f4efe7] py-20 text-[#111720]">
         <div className="container grid gap-14 md:grid-cols-[1fr_2fr]">

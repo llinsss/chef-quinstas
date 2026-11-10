@@ -42,6 +42,46 @@ export const portfolio: PortfolioItem[] = [
     category: "Portraits",
     image: "/assets/quinstas/portrait-close.jpg",
   },
+  {
+    title: "In the thick of service",
+    category: "Behind the scenes",
+    image: "/assets/quinstas/kitchen-lean-in.jpg",
+  },
+  {
+    title: "Standing in her craft",
+    category: "Portraits",
+    image: "/assets/quinstas/portrait-crossed-arms.jpg",
+  },
+  {
+    title: "Composed and ready",
+    category: "Portraits",
+    image: "/assets/quinstas/portrait-crossed-arms-side.jpg",
+  },
+  {
+    title: "A quiet confidence",
+    category: "Portraits",
+    image: "/assets/quinstas/portrait-chin-hand.jpg",
+  },
+  {
+    title: "Assistant Director of Welfare & Membership",
+    category: "Behind the scenes",
+    image: "/assets/quinstas/capa-welfare-membership.jpg",
+  },
+  {
+    title: "Dinner at altitude",
+    category: "Private-jet catering",
+    image: "/assets/quinstas/private-jet-dining.jpg",
+  },
+  {
+    title: "On the ground at NFS 2026",
+    category: "Behind the scenes",
+    image: "/assets/quinstas/event-nfs-2026.jpg",
+  },
+  {
+    title: "Live on stage",
+    category: "Event catering",
+    image: "/assets/quinstas/cooking-demo-knorr.jpg",
+  },
 ];
 export const services = [
   {
@@ -73,5 +113,32 @@ export const services = [
     num: "06",
     title: "Training & Mentorship",
     text: "Professional guidance for emerging culinary teams and practitioners, rooted in strong standards and continuous learning.",
+  },
+];
+
+export const experience = [
+  {
+    role: "Head Chef",
+    context: "Private-Jet Catering",
+    focus:
+      "Leading culinary production for private-jet guests, where flavour, presentation and timing all have to hold up against a fixed schedule and a highly specific set of preferences. The work is built on five things in equal measure: culinary excellence, attention to detail, discretion, time management and consistency.",
+  },
+  {
+    role: "Culinary & Operations Lead",
+    context: "Hospitality Kitchens",
+    focus:
+      "Running procurement, inventory and food costing alongside daily staff coordination, hygiene and quality control — the operational backbone that keeps a hospitality kitchen functioning as a business, not just a place that cooks well on a good day.",
+  },
+  {
+    role: "Hospitality Operations Lead",
+    context: "Multi-Function Properties",
+    focus:
+      "Coordinating restaurant, kitchen, bar, housekeeping, laundry, procurement and maintenance as a single operation rather than separate departments, with close attention to guest service, staff performance and the revenue and expense lines behind it all.",
+  },
+  {
+    role: "Recipe Developer & Menu Consultant",
+    context: "Independent & Consulting Work",
+    focus:
+      "Building recipes and menus around flavour, cost, ingredient availability and commercial practicality for independent clients — designed from the outset to be repeatable, scalable, and ready for a live kitchen rather than a one-off plate.",
   },
 ];

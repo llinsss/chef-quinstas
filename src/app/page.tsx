@@ -30,7 +30,7 @@ export default function Home() {
               Aviation cuisine shaped by Nigerian heritage, international
               technique and the precision of food engineering.
             </p>
-            <Link href="/portfolio" className="btn mt-9">
+            <Link href="/gallery" className="btn mt-9">
               Discover her work <ArrowDownRight size={15} />
             </Link>
           </div>
@@ -69,13 +69,21 @@ export default function Home() {
               <h2 className="serif mt-4 text-5xl">Chef Quinstas</h2>
             </div>
             <Link
-              href="/portfolio"
+              href="/gallery"
               className="hidden text-xs uppercase tracking-widest md:block"
             >
               View all media →
             </Link>
           </div>
-          <Gallery />
+          <Gallery
+            categories={[
+              "Portraits",
+              "Behind the scenes",
+              "Videos",
+              "Private-jet catering",
+              "Event catering",
+            ]}
+          />
         </div>
       </section>
       <section className="border-y border-white/10 bg-[#101927] py-28">
